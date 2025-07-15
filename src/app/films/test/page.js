@@ -1,4 +1,6 @@
-<div className="w-[1280px] min-h-[1080px] bg-slate-950 inline-flex flex-col justify-start items-center gap-8 overflow-hidden">
+export default function Page() {
+  return (
+    <div className="w-[1280px] min-h-[1080px] bg-slate-950 inline-flex flex-col justify-start items-center gap-8 overflow-hidden">
   <div className="self-stretch px-8 py-6 bg-pink-600 inline-flex justify-center items-center">
     <div className="flex-1 inline-flex flex-col justify-center items-start">
       <div className="w-full max-w-[1280px] inline-flex justify-between items-center">
@@ -1923,3 +1925,5 @@
     </div>
   </div>
 </div>
+  );
+}
